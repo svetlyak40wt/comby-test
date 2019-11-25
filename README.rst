@@ -3,5 +3,6 @@ How to run
 
 .. code:: shell
 
-   comby -in-place -matcher .lisp -templates rules
+   cd src
+   comby -in-place -matcher .lisp -templates ../rules
    git diff
